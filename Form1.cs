@@ -29,9 +29,6 @@ namespace proje
             panel11.Visible = false;
             timer1.Enabled = true;
             timer1.Start();
-            
-           
-
 
 
         }
@@ -139,28 +136,6 @@ namespace proje
             Application.Exit();
         }
 
-        private void pictureBox1_MouseHover(object sender, EventArgs e)
-        {
-            
-
-        }
-
-        private void pictureBox1_MouseLeave(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void label1_MouseHover(object sender, EventArgs e)
-        {
-
-            
-        }
-
-        private void label1_MouseLeave(object sender, EventArgs e)
-        {
-            
-        }
-
         private void panel3_MouseDown(object sender, MouseEventArgs e)
         {
             dragging = true;
@@ -190,20 +165,6 @@ namespace proje
             this.WindowState = FormWindowState.Maximized;
         }
 
-        private void panel5_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button1_DragLeave(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
@@ -225,39 +186,11 @@ namespace proje
             button4.ForeColor = Color.FromArgb(44, 41, 51);
         }
 
-        private void pictureBox1_MouseHover_1(object sender, EventArgs e)
-        {
-            
-        }
 
-        private void pictureBox1_MouseLeave_1(object sender, EventArgs e)
-        {
-            
-        }
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
-        }
-
-        private void panel6_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_MouseHover(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void pictureBox2_MouseLeave(object sender, EventArgs e)
-        {
-         
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void pictureBox1_MouseHover_2(object sender, EventArgs e)
@@ -275,11 +208,6 @@ namespace proje
             pictureBox2.Image = Dosyalar.diminish__1_;
         }
 
-        private void pictureBox2_DragLeave(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox2_MouseLeave_1(object sender, EventArgs e)
         {
             pictureBox2.Image = Dosyalar.diminish;
@@ -295,25 +223,6 @@ namespace proje
             Application.Exit();
         }
 
-        private void panel6_DoubleClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel3_DoubleClick(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void panel3_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-
-        }
-
-        private void panel12_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void pictureBox7_MouseHover(object sender, EventArgs e)
         {
@@ -325,10 +234,7 @@ namespace proje
             pictureBox7.Image = Dosyalar.menubarstop;
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        /* null functions is deleted */
 
         private void pictureBox7_MouseDown(object sender, MouseEventArgs e)
         {
@@ -352,10 +258,7 @@ namespace proje
             }
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-           
-        }
+     
 
         private void timer1_Tick_1(object sender, EventArgs e)
         {
@@ -363,16 +266,6 @@ namespace proje
             pictureBox8.Left += rd.Next(0, 4);
            
 
-
-        }
-
-        private void timer2_Tick(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void moreRealisticShadowLabel3_Click(object sender, EventArgs e)
-        {
 
         }
     }

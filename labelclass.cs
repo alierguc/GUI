@@ -18,7 +18,7 @@
         private float softness;
         private int opacity;
         private int shadowDepth;
-
+        /* Label Class örneğinin eklenmesi */
         public MoreRealisticShadowLabel()
           : base()
         {
